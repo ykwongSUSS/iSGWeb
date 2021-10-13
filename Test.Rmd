@@ -1,0 +1,85 @@
+---
+title: "iSG Web Project"
+subtitle: "⚔<br/>produced with xaringan"
+author: "Wong YueKee"
+institute: "VP Learning Services"
+date: "2021/10/11 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    nature:
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center middle right
+
+# iSG Web Project.
+
+### Wong YueKee, PhD
+
+---
+class: inverse
+.white[
+.pull-left[
+## Why do we need to change to HTML?
+
+```{r echo=FALSE,message=FALSE, fig.height=4, fig.width=3}
+library(DiagrammeR)
+grViz(
+  "digraph{
+  node[shape=none]
+  PDF -> ePUB
+  ePUB -> HTML
+}")
+```
+]]
+
+.pull-right[
+![:scale 80%](SUSSRdr2.gif) 
+]
+<style>
+.white {
+color:white;
+}
+</style>
+---
+class: middle
+
+## ePub Rendering on SUSS Reader
+
+![:scale 100%](SUSSRdr.png) 
+---
+class: inverse
+background-image: url("SUSSRdr2.gif")
+background-position: right
+background-size: contain
+
+.pull-left[
+## Why do we need to change to HTML?
+
+
+- ###PDF
+
+- ###ePUB
+
+- ###HTML
+]
+---
+
+## References
+
+  - [PacktPub](https://www.packtpub.com)
+  
+  - [OReilly](https://www.oreilly.com)
+  
+  - [InformIT](https://www.informit.com)
+  
+  - [Dummies Guide](https://dummies.com)
+
+---
+links
+
+

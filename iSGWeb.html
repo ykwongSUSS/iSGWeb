@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>iSG Web Project</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Wong YueKee" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center middle
+
+.brown[just a moment ...]
+
+
+&lt;style&gt;
+.brown{
+   color: brown;
+}
+.blue{
+  color: blue;
+}
+.red{
+  color:red;
+}
+&lt;/style&gt;
+---
+class: title-slide middle right
+
+# i.Learn .brown[Web Project].
+### Wong YueKee, PhD
+---
+class: middle, center, inverse
+.pull-left[
+&lt;img src="MTH353Cover.png" width="70%"&gt;
+&lt;br&gt;
+&lt;br&gt;
+eBook Focus
+]
+.pull-right[
+&lt;img src="iLearn.png" width="73%"&gt;
+&lt;br&gt;
+&lt;br&gt;
+Learning Focus
+]
+
+---
+class: inverse
+background-image: url("SUSSRdr2.gif")
+background-position: right
+background-size: 30%
+
+.pull-left[
+## Why change to: 
+- ## HTML   🤔
+
+## What's wrong with:
+
+- ## PDF  
+
+- ## ePUB
+]
+???
+
+PDF
+- static, non-interactive, no-media
+- doesn't render well on current mobile devices
+- but printing is excellent because of fix format
+
+ePUB
+- was "text" based
+- bandwidth savings no longer an important issue
+- besides videos and chunked-lessons are now external
+- excellent rendering and interactivity, but html can do more
+- including server-side calls
+- local storage
+
+HTML
+- more consistent and wider range of rendering
+- wider range of devices
+- longer shelf life
+- better development tools
+- server-side applications
+- server-side storage
+---
+class: middlep
+
+## iSG Rendering on SUSSReader
+
+&lt;img src="iSGRead.png" width="100%"&gt;
+
+--
+
+## HTML Renders the same way...
+
+???
+- The same rendering is afforded in HTML 
+- HTML offers more flexibility
+- Need to transition out of a e-book paradigm
+- iSGWeb will be a self-learning portal
+---
+
+.left-column[
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+### ...except we can do more things with WebHTML
+### ...and with server-side programming
+]
+
+.right-column[
+
+### Advantages:
+
+- HTML is more .brown[consistent] and plays well across devices
+  
+- can program for .brown[synchronization] with user accounts
+
+- can program for external or non-SUSS .brown[subscription] accounts
+
+- can program for .brown[learning paths]
+
+- can program .brown[recommendations] with graph based or ML based analyses
+
+- can program free and priced content with .brown[e-payment] systems
+
+- web-development (.brown[full-stack programming]) allows for a lot more tech solutions
+]
+---
+# Other features
+
+- .brown[API integration] to user databases and LS services
+
+- .brown[OAuth2] - mobile authentication
+
+- More user .brown[customizations]
+  + user notes and bookmarks
+  + users exchange
+  + social media interchange
+  + help and learning exchanges
+  + notifications
+  + accessible learning (tts)
+  
+- .brown[Technology Aided Learning]
+  + reminders - learner set the pace
+  + self assessment - learner does the review
+  + nudging - program does the nudging
+  + adaptive learning - program redirects learning path
+
+---
+# Data Analytics
+
+- .brown[Data capture] at DITA learning tags level
+
+- Build with .brown[Big Data] in mind
+
+- Build with .brown[Dashboards] in mind
+
+## Predictive Modeling Approaches
+
+- Statistical Modeling
+
+- Graph Modeling
+
+- Recommendation Engine
+
+- Machine Learning 
+  
+---
+
+# Document Workflow
+
+![](workflow1.png)
+
+---
+## Core Technologies
+.pull-left[
+- ### Project management
+  + Agile::Kanban
+  + Github
+  + .brown[Outsource Based]
+  
+- ### Programming
+  + NodeJS
+  + APIs
+  + .brown[Javascript Language]
+  
+- ### Servers and Storage
+  + AWS S3
+  + AWS Instances
+  + .brown[Cloud Services]
+]
+
+.pull-right[
+- ### Databases
+  + Exist DB
+  + Neo4j Graph DB
+  + mySQL DB
+  + .brown[Document DB]
+  
+- ### Mobile Programming
+  + iOS - Swift
+  + Android - Kotlin
+
+
+]
+
+
+
+---
+## References
+
+  - [PacktPub](https://www.packtpub.com)
+  
+  - [OReilly](https://www.oreilly.com)
+  
+  - [InformIT](https://www.informit.com)
+  
+  - [Dummies Guide](https://dummies.com)
+
+---
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
