@@ -59,7 +59,14 @@ eBook Focus
 Learning Focus
 ]
 ???
-To move away from an eBook paradigm, we need a web HTML implementation our content.
+Move away from eBook paradigm
+- basically "static" 
+- reader behaviour (studying)
+
+To adaptive learning
+- customise based on user account
+- track and synchronize reading 
+- adapt to user pace and learning
 ---
 class: inverse
 
