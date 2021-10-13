@@ -23,9 +23,10 @@ class: center middle
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 library(emoji)
 library(tidyverse)
-library(widgetframe)
-library(DiagrammeR)
-library(webshot)
+library(xaringan)
+library(xaringanExtra)
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
 ```
 <style>
 .brown{
@@ -60,9 +61,6 @@ Learning Focus
 
 ---
 class: inverse
-background-image: url("SUSSRdr2.gif")
-background-position: right
-background-size: 30%
 
 .pull-left[
 ## Why change to: 
@@ -74,6 +72,10 @@ background-size: 30%
 
 - ## ePUB
 ]
+.pull-right[
+<img src="SUSSRdr.gif" width="80%">
+]
+
 ???
 
 PDF
