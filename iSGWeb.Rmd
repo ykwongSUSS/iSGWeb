@@ -58,7 +58,8 @@ eBook Focus
 <br>
 Learning Focus
 ]
-
+???
+To move away from an eBook paradigm, we need a web HTML implementation our content.
 ---
 class: inverse
 
