@@ -42,8 +42,18 @@ xaringanExtra::use_panelset()
 ---
 class: title-slide middle right
 
-# i.Learn .brown[Web Project].
+# i.Learn .brown[Web]
 ### Wong YueKee, PhD
+---
+
+<img src="ABitofHistory.png" align="bottom">
+
+.pull-left[
+<i>A lot of work has taken place in the last 7 years - both in terms of improving the presentation of the e-StudyGuide as well as the distribution to the users.</i>]
+.pull-right[
+<i>But it is still within the context of an eBook eco-system.  It is time for change.
+
+-- wongyk </i>]
 ---
 class: middle, center, inverse
 .pull-left[
@@ -226,11 +236,7 @@ class: middlep
   + iOS - Swift
   + Android - Kotlin
 
-
 ]
-
----
-new slide page
 
 ---
 ## References
