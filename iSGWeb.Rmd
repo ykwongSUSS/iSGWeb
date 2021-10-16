@@ -151,19 +151,19 @@ HTML
 
 ### Advantages:
 
-- HTML is more .brown[consistent] and plays well across devices
+- More device choices
   
-- can program for .brown[synchronization] with user accounts
+- User accounts allows .brown[Synchronization]
 
-- can program for external or non-SUSS .brown[subscription] accounts
+- User accounts allows .brown[Subscriptions] (think Alumni)
 
-- can program for .brown[learning paths]
+- Server directs .brown[learning paths]
 
-- can program .brown[recommendations] with graph based or ML based analyses
+- Server .brown[recommends] using graph based or ML based analyses
 
-- can program free and priced content with .brown[e-payment] systems
+- Server does .brown[e-payment] systems
 
-- web-development (.brown[full-stack programming]) allows for a lot more tech solutions
+- (.brown[full-stack web development]) allows for a lot more tech solutions
 ]
 ---
 # Other features
