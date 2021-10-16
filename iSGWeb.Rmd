@@ -19,6 +19,8 @@ class: center middle
 
 .brown[just a moment ...]
 
+.smaller[(use arrow keys to navigate)]
+
 ```{r include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 library(emoji)
@@ -38,6 +40,9 @@ xaringanExtra::use_panelset()
 .red{
   color:red;
 }
+.smaller{
+  font-size:smaller;
+}
 </style>
 ---
 class: title-slide middle right
@@ -49,11 +54,11 @@ class: title-slide middle right
 <img src="ABitofHistory.png" align="bottom">
 
 .pull-left[
-<i>A lot of work has taken place in the last 7 years - both in terms of improving the presentation of the e-StudyGuide as well as the distribution to the users.</i>]
+<i>A lot of work has taken place in the last 7 years - both in  improving the presentation of the e-StudyGuide and in its distribution to the users.</i>]
 .pull-right[
 <i>But it is still within the context of an eBook eco-system.  It is time for change.
 
--- wongyk </i>]
+---wongyk 2021 </i>]
 ---
 class: middle, center, inverse
 .pull-left[
