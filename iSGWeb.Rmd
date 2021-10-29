@@ -95,7 +95,7 @@ class: inverse
 ## Focus on: 
 - ## web HTML   `r emo::ji("thinking")`
 
-## De-emphasize:
+## Move away from:
 
 - ## PDF  
 
@@ -112,21 +112,16 @@ PDF issues
 - does not render well on current mobile devices
 
 ePUB issues
-- initially "text" based (think Kindle)
+- container packaging makes it restrictive
 - now bandwidth savings no longer critical issue
 - videos and chunked-lessons are now externally sourced
-- while good at rendering and interactivity, html can do more
-- can include some server-side calls
-- relys on local storage
+- limited local storage - stateless
 
 HTML
-- more consistent and wider range of rendering modes
-- adaptable to wider range of devices
-- needs to call internet mostly
-- longer shelf life
+- consistent and wider range of rendering modes and devices
+- requires internet access
 - better development tools
-- server-side applications
-- server-side storage
+- server-side applications and storage
 ---
 
 ## We achieved good rendering with ePub and css !
