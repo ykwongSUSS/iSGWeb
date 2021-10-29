@@ -81,12 +81,12 @@ class: middle, center, inverse
 ]
 ???
 Move away from eBook paradigm
-- basically "static" 
-- reader behaviour (studying)
+- which is basically "static" 
+- based on reading/studying behaviour
 
 To adaptive learning
-- customise based on user account
-- track and synchronize reading 
+- allow user customization - recommendation 
+- track and synchronize reading at user level
 - adapt to user pace and learning
 ---
 class: inverse
