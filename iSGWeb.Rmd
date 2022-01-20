@@ -54,7 +54,7 @@ h1, h2, h3, h4 {
 class: title-slide middle right
 
 # iSG..brown[Web]
-### Wong YueKee, PhD
+### Wong YueKee
 ##### Dated: 11 Oct 2021
 ##### Updated: 19 Jan 2022
 ---
